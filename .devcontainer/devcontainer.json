@@ -14,7 +14,9 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"ms-dotnettools.csdevkit",
+				"csharpier.csharpier-vscode"
 			]
 		}
 	},
@@ -24,7 +26,7 @@
 	"portsAttributes": {
 		"5000": {
 			"label": "Hello Remote World",
-			"onAutoForward": "notify"
+			"onAutoForward": "silent"
 		},
 		"5001": {
 			"protocol": "https"
